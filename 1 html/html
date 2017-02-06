@@ -1,26 +1,16 @@
 <base href="http://www.w3schools.com/images/">
 
- <a href="mailto:someone@example.com">Send mail!</a>
+<a href="mailto:someone@example.com">Send mail!</a>
 
 <a href="tel:18008675309">Call Jenny!</a>
 
 Zero-Width Space
 &#8203;
 
-0174
-®
-0169
-©
-™
-0153
-“
-0147
-”
-0148
+<img src="http://placehold.it/1440x810" alt="">
+<img src="http://placehold.it/1440x810?text=1" alt="">
 
 foo://example.com:8042/over/there?name=ferret#nose
 \__/ \___________/\______________/\_________/\____/
   |       |              |            |       |
 scheme authority        path        query  fragment
-
-changes

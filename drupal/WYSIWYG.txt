@@ -1,0 +1,11 @@
+WYSIWYG
+
+add file:
+/admin/config/content/ckeditor/editg
+//cdn.ckeditor.com/4.4.3/full-all
+
+set full html as default:
+/admin/config/content/formats
+
+turn on modules:
+/admin/config/content/formats/full_html

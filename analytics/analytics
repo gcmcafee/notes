@@ -1,0 +1,21 @@
+http://www.lunametrics.com/blog/2015/08/27/ajax-event-listener-google-tag-manager/
+https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/
+
+Setting up Analytics for Form Submission in GTM
+  Need
+    2 sets of Triggers and Tags
+      1.
+        All pages Trigger
+          If any page
+        AJAX Form Listener Tag
+          Add Tag that contains script that listens for "ajaxComplete"(submittal) and sends event formSuccess to the Data Layer
+      2.
+        Birthday Form Success Trigger
+          If URL contains birthdays and event formSuccess fired
+        Birthday Form Tag
+          Add Tag that Sends an event to Analytics
+
+
+Viewing Analytics for Form Submissions in Google Analytics
+  analytics.google.com > Behavior > Events > Overview > Event Category > Form > filter by Event Label
+

@@ -1,0 +1,63 @@
+WYSIWYG
+
+Webform
+[block:webform=client-block-18]
+Block
+[block:block=17]
+Menu
+[block:menu=menu-sub-footer-menu]
+Gallery View
+[block:views=gallery-block_1]
+Widget
+[block:widget=widget_twitter]
+View
+[block:views=article-latest_busker]
+
+
+[block:facetapi=t6lf2OWz70kX2PkTa5e16t7oU1kgw1fw]
+
+
+TEMPLATE
+
+
+Block
+<?php
+  $block = module_invoke('block', 'block_view', '28');
+  print render($block['content']);
+?>
+
+View
+<?php
+  $block = module_invoke('views', 'block_view', 'article-block_1');
+  print render($block);
+?>
+
+Widget
+<?php
+    $widget = module_invoke('widget', 'block_view', 'widget_twitter');
+    print render($widget);
+  ?>
+
+<?php
+    $block = module_invoke('webform', 'block_view', 'client-block-11');
+     print render($block['content']);
+?>
+
+To embed menu block:
+<?php  
+ $block = module_invoke('menu_block', 'block_view', 3); 
+ print render($block['content']);
+?>
+
+To embed original "Main menu" (NOT "menu-main-menu"):
+<?php
+ $block = module_invoke('menu', 'block_view', 'main-menu'); 
+ print render($block['content']);    
+?>
+
+      
+/* Print the whole custom block (with divs, title etc.) */
+<?php
+     $block = block_load('block','1');
+     print drupal_render(_block_get_renderable_array(_block_render_blocks(array($block))));
+?>

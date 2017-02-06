@@ -1,7 +1,9 @@
-Select Item – Shift+Ctrl+. or Shift+Ctrl+,
+Sublime Actions
 
-Rename Tag – Shift+Ctrl+'
-Delete Tag – Ctrl + Shift + ;
+Select Item – Ctrl+Shift+. or Ctrl+Shift+,
+
+Rename Tag – Ctrl+Shift+'
+Delete Tag – Ctrl+Shift+;
 
 Match Tag Pair Outward – Ctrl+,
 Match Tag Pair Inward – Ctrl+.
@@ -15,4 +17,11 @@ Go to Anything — Ctrl+P
 Find — Ctrl+Shift+F
 
 empty spaces
- ^\n
+^\n
+
+trailing whitespace
+[ \t]+\n
+replace with
+\n
+
+-transition

@@ -1,0 +1,11 @@
+To get just the path of an image from it's URI:
+
+file_create_url($node->field_image['und'][0]['uri']);
+
+More information on file_create_url() can be found here: http://api.drupal.org/api/drupal/includes%21file.inc/function/file_create_url/7
+
+To get the path of an image created using an image style from it's URI use:
+
+image_style_url($style, $node->field_image['und'][0]['uri']);
+
+More information on image_style_url() can be found here: http://api.drupal.org/api/drupal/modules!image!image.module/function/image_style_url/7

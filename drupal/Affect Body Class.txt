@@ -1,0 +1,40 @@
+==========
+Alias:
+==========
+function georges_preprocess_html(&$variables) {
+$path = drupal_get_path_alias($_GET['q']);
+    $aliases = explode('/', $path);
+
+    foreach($aliases as $alias) {
+      $variables['classes_array'][] = 'page-alias-' . drupal_clean_css_identifier($alias);
+    }
+ }
+
+function flagship_preprocess_html(&$variables) {
+$path = drupal_get_path_alias($_GET['q']);
+    $aliases = explode('/', $path);
+
+    foreach($aliases as $alias) {
+      $variables['classes_array'][] = drupal_clean_css_identifier($alias);
+    }
+}
+
+==========
+Boolean Field:
+==========
+
+function ge_automation_preprocess_html(&$vars) {
+  $node = $vars['page']['content']['system_main']['nodes'];
+  $nid = key($node);
+  $type = $node[$nid]['#node']->type;
+
+  // if a product
+  if($type == 'ge_automation_product'){
+    // if hero product
+    $hero_product = $node[$nid]['#node']->field_hero_product['und'][0]['value'];
+    if ($hero_product == 1 ) {
+      // add hero-product class
+      $vars['classes_array'][] = 'hero-product';
+    }
+  }
+}

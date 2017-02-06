@@ -1,0 +1,13 @@
+Module
+commerce_invoice_receipt
+
+Permissions:
+let customer see own purchase
+
+Manage Display
+/admin/commerce/config/order/display/invoice
+invoice/receipt
+
+To Test:
+/admin/commerce/config/payment-methods
+edit payment method - Test transactions in a live account

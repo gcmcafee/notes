@@ -4,37 +4,23 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-decoration"
+				"p",
+				"p\tTag"
+			],
+			[
+				"se",
+				"section\tTag"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "Searching 24 files for \"background-cover\"\n\n0 matches\n\nSearching 24 files for \"cover\"\n\nC:\\Users\\CodeManPJ\\Desktop\\clippings\\3 less\\less.less:\n   25    }\n   26  }\n   27: .bg--cover {\n   28:   background-size: cover;\n   29    background-repeat: no-repeat;\n   30    background-position: center;\n\n2 matches in 1 file\n\n\nSearching 23 files for \"box-shadow\"\n\n0 matches\n\nSearching 23 files for \"box-shadow\"\n\n0 matches",
+			"file": "1 html/html",
 			"settings":
 			{
-				"buffer_size": 408,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "2 css/css.css",
-			"settings":
-			{
-				"buffer_size": 1204,
+				"buffer_size": 476,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "3 less/less.less",
-			"settings":
-			{
-				"buffer_size": 2557,
 				"line_ending": "Windows"
 			}
 		}
@@ -47,29 +33,9 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "less",
+		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"less",
-				"Set Syntax: LESS"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Add Channel"
-			],
-			[
-				"pack",
-				"Package Control: Install Package"
-			],
 			[
 				"xcss",
 				"Set Syntax: CSS"
@@ -77,16 +43,49 @@
 			[
 				"xhtml",
 				"Set Syntax: HTML"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"xphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"xpla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"xjavascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"xless",
+				"Set Syntax: LESS"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
 			]
 		],
-		"width": 528.0
+		"width": 432.0
 	},
 	"console":
 	{
-		"height": 174.0,
+		"height": 203.0,
 		"history":
 		[
-			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print 'Please restart Sublime Text to finish installation'"
 		]
 	},
 	"distraction_free":
@@ -100,41 +99,156 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/CodeManPJ/Desktop/clippings"
+		"/C/Users/cody/Documents/resources/clippings",
+		"/C/Users/cody/Documents/resources/clippings/1 html",
+		"/C/Users/cody/Documents/resources/clippings/2 css",
+		"/C/Users/cody/Documents/resources/clippings/3 less",
+		"/C/Users/cody/Documents/resources/clippings/bootstrap"
 	],
 	"file_history":
 	[
-		"/C/Users/CodeManPJ/Desktop/clippings/2 css/data-overlay.css",
-		"/C/Users/CodeManPJ/Desktop/clippings/2 css/sections.css",
-		"/C/Users/CodeManPJ/Desktop/clippings/3 less/less.less",
-		"/C/Users/CodeManPJ/Desktop/pics",
-		"/C/Users/CodeManPJ/Documents/wedn/wedding.html",
-		"/C/Users/CodeManPJ/Documents/wedn/wedding.sublime-workspace",
-		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
-		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements-st3/readme.md",
-		"/C/Users/CodeManPJ/Desktop/wedn/wedding2.html",
-		"/C/Users/CodeManPJ/Desktop/wedn/wedding.html",
-		"/C/Users/CodeManPJ/Documents/jobs/classy_senior-front-end-eng.txt",
-		"/C/Users/CodeManPJ/Desktop/dates",
-		"/C/Users/CodeManPJ/Documents/jobs/bvaccel_senior-front-end-dev.txt",
-		"/C/Users/CodeManPJ/Documents/jobs/salary.txt",
-		"/C/Users/CodeManPJ/Desktop/retroarch.cfg",
-		"/C/Users/CodeManPJ/Desktop/headq.html"
+		"/C/Users/cody/Documents/resources/clippings/1 html/test.html",
+		"/C/Users/cody/Documents/resources/clippings/fonts/fonts",
+		"/C/Users/cody/Documents/resources/clippings/sublime/sublime",
+		"/C/Users/cody/Documents/resources/clippings/sublime/1 emmet--syntax.html",
+		"/C/Users/cody/Documents/resources/clippings/1 html/ascii",
+		"/C/Users/cody/Documents/resources/clippings/2 css/spacing.css",
+		"/C/Users/cody/Documents/resources/clippings/2 css/data-overlay.css",
+		"/C/Users/cody/Documents/resources/clippings/1 html/html",
+		"/C/Users/cody/Documents/resources/clippings/3 less/less.less",
+		"/C/Users/cody/Documents/resources/clippings/bootstrap/queries.less",
+		"/C/Users/cody/Desktop/safetynet.less",
+		"/C/Users/cody/Documents/resources/clippings/2 css/height.css",
+		"/C/Users/cody/Documents/resources/clippings/2 css/sections.css",
+		"/C/Users/cody/Documents/resources/clippings/analytics/analytics",
+		"/C/Users/cody/Documents/resources/clippings/sublime/2 emmet--html-abbr",
+		"/C/Users/cody/Documents/resources/clippings/sublime/1 emmet--syntax",
+		"/C/Users/cody/Documents/resources/clippings/sublime/sublime.txt",
+		"/C/Users/cody/Documents/resources/clippings/1 html/html.html",
+		"/C/Users/cody/Documents/resources/clippings/1 html/ascii.txt",
+		"/C/Users/cody/Documents/resources/clippings/Invoice.txt",
+		"/C/Users/cody/Documents/resources/clippings/drupal/WYSIWYG.txt",
+		"/C/Users/cody/Documents/resources/clippings/drupal/Affect Body Class.txt",
+		"/C/Users/cody/Documents/resources/clippings/drupal/Image Field Path.txt",
+		"/C/Users/cody/Documents/resources/clippings/drupal/Insert Block.txt",
+		"/C/Users/cody/Documents/resources/clippings/drupal/Special Menu Items.txt",
+		"/C/Users/cody/Documents/resources/clippings/drupal/google-fonts.php",
+		"/C/Users/cody/Documents/resources/clippings/pdf/pdf.txt",
+		"/C/Users/cody/Documents/resources/clippings/codepen.txt",
+		"/C/Users/cody/Documents/resources/clippings/putty/urls.txt",
+		"/C/Users/cody/Documents/resources/clippings/accessibility/sr-only.txt",
+		"/C/Users/cody/Documents/resources/clippings/accessibility/collapse.txt",
+		"/C/Users/cody/Documents/resources/clippings/accessibility/modal.txt",
+		"/C/Users/cody/Documents/resources/clippings/5 php/php.php",
+		"/C/Users/cody/Documents/resources/clippings/5 php/stdClass.php",
+		"/C/Users/cody/Documents/resources/clippings/bootstrap/modal-accessible.txt",
+		"/C/Users/cody/Documents/resources/clippings/bootstrap/mq2.css",
+		"/C/Users/cody/Documents/resources/clippings/bootstrap/mq.css",
+		"/C/Users/cody/Documents/resources/clippings/bootstrap/less.less",
+		"/C/Users/cody/Documents/resources/clippings/ARCHIVE/Jan2017.rdf",
+		"/C/Users/cody/Documents/resources/clippings/html/html",
+		"/C/Users/cody/Documents/resources/clippings/4 javascript/js.js",
+		"/C/Users/cody/Documents/resources/clippings/4 javascript/jQuery.js",
+		"/C/Users/cody/Documents/resources/clippings/2 css/margin-padding.css",
+		"/C/Users/cody/Documents/resources/clippings/2 css/css.css",
+		"/C/Users/cody/Documents/resources/clippings/2 css/data-overlay.less",
+		"/C/Users/cody/Documents/resources/clippings/css.css",
+		"/C/Users/cody/Desktop/clippings.html",
+		"/L/static/flagship/rweek.html",
+		"/C/Users/cody/Documents/resources/notes to self/todo.txt",
+		"/C/Users/cody/Desktop/test.html",
+		"/L/static/party/hp2016.css",
+		"/L/static/flagship/flag-whale.html",
+		"/L/static/flagship/flag-cruise-0.html",
+		"/L/abaco/docroot/profiles/geautom/themes/ge-automation/less/bootstrap-overrides.less",
+		"/C/Users/cody/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/cody/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/cody/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/cody/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/cody/Documents/resources/notes to self/todotoday.txt",
+		"/C/Users/cody/Documents/resources/notes to self/scratch.txt",
+		"/L/static/amity/amityop/amity.html",
+		"/C/Users/cody/Documents/resources/notes to self/notes.txt",
+		"/C/Users/cody/Desktop/kari.html",
+		"/C/Users/cody/Desktop/Seaport Welcome.html",
+		"/C/Users/cody/Desktop/Seaport Opt-In Thanks BACKUP.html",
+		"/C/Users/cody/Desktop/courtney.txt",
+		"/C/Users/cody/Desktop/tickets.flgshipsd.com_csr.txt",
+		"/C/Users/cody/Desktop/tickets.flgshipsd.com_csr (1).txt",
+		"/L/terramar/mdeal/sites/all/themes/seaport/template/views/business/restaurants/page/views-view-unformatted--page-restaurant-3column.tpl.php",
+		"/L/terramar/mdeal/sites/all/themes/seaport/template/views/business/restaurants/page/views-view-fields--page-restaurant-3column.tpl.php",
+		"/L/terramar/mdeal/sites/all/themes/seaport/template/views/attraction/views-view-unformatted--page-attraction-2column.tpl.php",
+		"/C/Users/cody/Desktop/headquarters.txt",
+		"/L/terramar/mdeal/sites/all/modules/context/context_layouts/README.txt",
+		"/L/terramar/seaport-headquarters/sites/all/modules/media/README.txt",
+		"/L/static/electra/filter.html",
+		"/C/Users/cody/Desktop/Summer is Back.html",
+		"/L/static/colorescience/email/mailchimp-email-custom-template.html",
+		"/C/Users/cody/AppData/Local/Temp/Drag and Drop.html",
+		"/L/georgesatthecove/georges_galaxy_drupal_site/sites/all/modules/less/README.txt",
+		"/L/georgesatthecove/georges_galaxy_drupal_site/sites/all/modules/README.txt",
+		"/L/georgesatthecove/georges_galaxy_drupal_site/sites/all/libraries/lessphp/test/index.php",
+		"/C/Users/cody/Documents/resources/toolbox/js.js",
+		"/C/Users/cody/Documents/resources/toolbox/css.css",
+		"/C/Users/cody/Documents/resources/toolbox/html.html",
+		"/C/Users/cody/Documents/resources/Drupal/html.tpl.php",
+		"/L/galaxytaco/site/index.php",
+		"/C/Users/cody/Desktop/nufacebackup.html",
+		"/C/Users/cody/Documents/sublime-projects/todo.txt",
+		"/C/Users/cody/Documents/Projects/GE/Isotope/German/full.html",
+		"/L/foresight-sports/drupal/sites/all/themes/foresight_sub/less/content.less",
+		"/L/foresight-sports/drupal/sites/default/files/less/pVz9EvRDPvSY11suo8T591rKbOB2Tm-5LV-qwlXJH5U/sites/all/themes/foresight_sub/less/style.XcVzbo5GbrB4v7QVES377fts6uudS0o0YbaMpBamvPg.css",
+		"/L/foresight-sports/drupal/sites/all/themes/foresight_sub/less/overrides.less",
+		"/L/foresight-sports/drupal/sites/all/themes/foresight_sub/less/style.less",
+		"/L/mcasd/mcasd/sites/all/themes/mcasd/css/front.css",
+		"/L/foresight-sports/drupal/sites/all/themes/foresight_sub/js/front.js",
+		"/L/mcasd/mcasd/sites/all/themes/zen/zen-internals/css/pages.css",
+		"/L/gefanuc/geautomation/geenergy/docroot/profiles/geautom/themes/ge-automation/less/cody-temp.less",
+		"/C/Users/cody/Documents/Resources/notes to self/todo.txt",
+		"/C/Users/cody/Documents/Resources/notes to self/css.css",
+		"/C/Users/cody/Desktop/notes.txt",
+		"/C/Users/cody/Desktop/views-view-field--product-details--specifications.tpl.php",
+		"/C/Users/cody/Desktop/tempo",
+		"/C/Users/cody/Documents/Resources/notes to self/notes.html",
+		"/C/Users/cody/Desktop/jquery.rwdImageMaps.min.js",
+		"/C/Users/cody/Desktop/ios-orientationchange-fix.min.js",
+		"/C/Users/cody/Desktop/proficy-for-discrete-manufacturing/proficy.txt",
+		"/C/Users/cody/Desktop/connecting-manufacturing-subpage-to-proficy.psd/connecting-manufacturing-subpage-to-proficy.txt",
+		"/C/Users/cody/Desktop/hero-product-equipment-insight/hero-product-equipment-insight.txt",
+		"/C/Users/cody/Desktop/proficy for discrete manufacturing/proficy.txt",
+		"/L/gefanuc/commercial/html/css/isotope/front.css",
+		"/C/Users/cody/Documents/Projects/GE/Notes",
+		"/C/Users/cody/Documents/Projects/GE/Isotope/German/links.html",
+		"/L/gefanuc/commercial/docs/templates/page-isotope.html",
+		"/C/Users/cody/Documents/Projects/GE/clean.html",
+		"/L/gefanuc/commercial/html/js/isotope/ge-init.js",
+		"/C/Users/cody/Desktop/isotope.pkgd.min.js",
+		"/C/Users/cody/Documents/Projects/GE/front(1).css",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/js/geautomation.js",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/less/ge-automation-variables.less",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/templates/node/node--ge-automation-product.tpl.php",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/templates/views/views-view--related-content--block.tpl.php",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/templates/views/views-view-unformatted--related-content--block.tpl.php",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/js/require.config.js",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/components/carousel/js/carousel.jsOLD",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/components/carousel/js/carousel.js",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/js/mds.js",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/less/ge-automation-overrides.less",
+		"/L/gefanuc/master-drupal/ge-drupal/docroot/profiles/geautom/themes/ge-automation/templates/node/node--ge-automation-youtube-videos.tpl.php"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"<project>",
-			"",
-			"C:\\Users\\CodeManPJ\\Documents\\Pillar\\pillar\\css"
+			"L:\\gefanuc\\master-drupal\\ge-drupal\\docroot\\profiles\\geautom\\themes\\bootstrap",
+			"<open folders>",
+			"256"
 		]
 	},
 	"find_state":
@@ -142,104 +256,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"box",
-			"box-shadow",
-			"box",
-			"box-shadow",
-			"#aaa",
-			"pink",
-			"color: pink;",
-			"cover",
-			"background-cover",
-			"(",
-			")",
-			"     )*",
-			"''",
-			".8",
-			"menu",
-			"hide_menu",
-			"icon",
-			"blue",
-			"btn",
-			"ctrl+",
-			"ctrl+0",
 			"text",
-			"Travel",
-			"weekend",
-			"Weekend",
-			"weekend",
-			"Weekend",
-			"weekend",
-			"Weekend",
-			"weekend",
-			"Weekend",
-			"weekend",
-			"rsvp",
-			"<div class=\"small\">",
-			"More Details",
-			"data-overlay",
-			", ",
-			"\"#\"",
-			"#",
-			"1900",
-			"\"#\"",
-			"text-center",
-			"sm",
-			"parallax",
-			"sm",
-			"col-xs-6",
-			"input-with-icon ",
-			"<label",
-			"<",
-			"mt24",
-			"h5",
-			"240px",
-			"width:240px",
-			"width:240px;",
-			"space--md",
-			"One of the best",
-			"one of the best",
-			"parallax",
-			"url",
-			"images",
-			"gallery",
-			"text tabs",
-			",",
-			".bg--white",
-			"3",
-			"visit our ",
-			".btn",
-			"week",
-			"venues",
-			"courtney",
-			"montse",
-			"data",
-			"h3",
-			"h4",
-			"wedding cerem",
-			"our registry",
-			"images/gallery/.jpg",
-			"img/",
-			"col-sm-3",
-			"col-sm-4",
-			"sm-3",
-			"col-sm-3",
-			"md",
-			"index.html",
-			"cody ",
-			"Courtney & Cody",
-			"pillar",
-			"min-width",
-			"max-width:",
-			"max-width",
-			"h2",
-			"parallax",
+			"heading",
+			"heading 1",
+			"placeholder",
+			"\"",
+			"48",
+			"sublime",
+			"ul",
+			"b",
+			"vert",
+			"******",
+			"/* ================================= */\n/*",
+			"grow",
+			"$(",
+			"$",
+			" hidden",
+			"conunter",
+			"count-wrapper",
+			"block",
+			"center-block",
+			"<div class=\"counter\"",
+			"></div>",
+			"<form",
+			"softwarfform",
+			"required",
+			"%3E",
+			"%22",
+			"%3D",
 			"%20",
-			"$NAME$FILEEXT",
-			"echo ",
+			"%3C",
+			"<option",
+			"flareposx",
+			"flarecontainer",
+			">",
+			"</option>",
+			"@colgap",
+			"@colcount",
+			"post",
+			"<a href=\"",
+			"<img src=\"",
+			"</li>",
+			"href=\"",
+			"http://www.coronadochamber.com/Boating-Marine-Services/Flagship-Cruises-Events-262",
+			"src=\"",
+			"<a href",
+			"- ",
+			"coupon",
+			"book now",
+			"before you depart",
+			"educational whale watching",
+			"#footer",
+			"!1m0!3m2!1sen!2sus!4v1478294707950!6m8!1m7!1sWzi0f0jlhk4AAAQvOvl_LQ!2m2!1d32.85359942031427!2d-117.254472884225!3f136!4f0!5f0.7820865974627469",
+			"         ",
+			"        ",
+			"Add an item…",
+			" PageDelete…",
+			"level2",
+			"state of ",
+			"row",
+			".row",
+			"h4>The content</h4>",
+			"The content",
+			".attn-band ",
+			"<",
+			", ",
+			"hole",
 			"</i>",
-			"<i",
-			"alert"
+			"&#8203;​",
+			"<style",
+			"carousel-unique-title-6",
+			"set to",
+			"<div class=\"item-content\">",
+			"title-5",
+			"<div class=\"carousel-btn-wrapper\">",
+			"</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+			"</div>\n</div>\n</div>\n</div>\n</div>\n</div>",
+			"</div>\n</div>\n</div>\n</div>\n</div>",
+			"<div class=\"container\">",
+			"Carousel 5",
+			"carousel-unique-title-5",
+			"\"text-center add-padding\"",
+			"v1",
+			"v1, ",
+			"carousel-v1",
+			"\"text-center add-padding\"",
+			"h3",
+			"carousel-v1",
+			"title-3",
+			"-4",
+			"carousel-unique-title-4",
+			"Carousel 4",
+			"title-3",
+			"-3",
+			"h2",
+			"carousel-unique-title-2",
+			"carousel-unique-title-1",
+			"carousel-unique-title",
+			"&nbsp;",
+			"Celebrate ",
+			"ser",
+			"/sites/headquarters/files/userfiles/files/overview-brochure.pdf",
+			"block",
+			"ctrl+shift",
+			"keys",
+			"tbl-3-reservation",
+			"make a re",
+			"test.geautomation.com",
+			"staging",
+			"stage",
+			"&quot;",
+			" &quot;",
+			"<strong>",
+			"http://www.seaportvillage.com/shops",
+			"name=\"\"",
+			"     ",
+			"hover",
+			"id=",
+			"id=\"yui_3_17_2_2_1464715163706_34555\"",
+			"background-image",
+			"static/",
+			",",
+			"610",
+			"true",
+			"architect",
+			"search rentals",
+			"property",
+			"back",
+			"http://flagshipsd.com/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -247,7 +391,25 @@
 		"regex": false,
 		"replace_history":
 		[
-			""
+			" 0",
+			"font-size: @font-size-base;",
+			"http://www.troxelhelmets.com/uploads/files/FFSpecialEM102414.pdf",
+			"id=\"#acquisition-prompt\"",
+			"id=\"#acquisition-success\"",
+			"#acquisition-success",
+			"#acquisition-prompt",
+			"CODYMOD",
+			"YouTube",
+			"fancyBox",
+			"link-overlay",
+			"blockquote",
+			"text-center",
+			"light-purple",
+			"ceo-quote",
+			"item-md",
+			"item-md-wide",
+			"item-lg",
+			"256"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -258,114 +420,35 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "1 html/html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 408,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										173,
-										178
-									],
-									[
-										207,
-										212
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								362,
-								362
-							]
-						],
-						"settings":
-						{
-							"default_dir": "C:\\Users\\CodeManPJ\\Desktop\\clippings",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 4,
-							"result_base_dir": "",
-							"result_file_regex": "^([^ \t].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 421.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "2 css/css.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1204,
+						"buffer_size": 476,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								476,
+								476
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"bs_sintax": "html",
+							"buffer_scroll_name": "e655fa1e",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "3 less/less.less",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								212,
-								212
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 179.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -376,11 +459,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 26.0
 	},
 	"input":
 	{
-		"height": 38.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -413,7 +496,7 @@
 	"project": "clippings.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -423,8 +506,48 @@
 		"selected_items":
 		[
 			[
-				"init",
-				"pillar\\js\\init.js"
+				"asc",
+				"1 html\\ascii"
+			],
+			[
+				"",
+				"bootstrap\\mq3.less"
+			],
+			[
+				"less",
+				"bootstrap\\mq3.less"
+			],
+			[
+				"le",
+				"3 less\\less.less"
+			],
+			[
+				"ascii",
+				"1 html\\ascii"
+			],
+			[
+				"html",
+				"1 html\\html"
+			],
+			[
+				"data",
+				"2 css\\data-overlay.css"
+			],
+			[
+				"css",
+				"2 css\\spacing.css"
+			],
+			[
+				"emm",
+				"sublime\\1 emmet--syntax.html"
+			],
+			[
+				"spac",
+				"2 css\\spacing.css"
+			],
+			[
+				"sublime",
+				"sublime\\1 emmet--syntax.html"
 			]
 		],
 		"width": 0.0
@@ -432,34 +555,110 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "",
+		"last_filter": "geo",
 		"selected_items":
 		[
 			[
+				"geo",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\georges-drupal-2015.sublime-project"
+			],
+			[
+				"abaco",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\abaco.sublime-project"
+			],
+			[
 				"",
-				"C:\\Users\\CodeManPJ\\Documents\\wedn\\website\\wedding.sublime-project"
+				"C:\\Users\\cody\\Documents\\sublime-projects\\flagship.sublime-project"
+			],
+			[
+				"fore",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\foresight2017.sublime-project"
+			],
+			[
+				"for",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\foresight2017.sublime-project"
+			],
+			[
+				"flag",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\flagship.sublime-project"
+			],
+			[
+				"spotlink",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\spotlink.sublime-project"
+			],
+			[
+				"spot",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\spotlink.sublime-project"
+			],
+			[
+				"georges",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\georges-drupal-2015.sublime-project"
+			],
+			[
+				"spo",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\spotlink.sublime-project"
+			],
+			[
+				"aba",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\abaco.sublime-project"
+			],
+			[
+				"seaport",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\seaport.sublime-project"
+			],
+			[
+				"mcasd",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\mcasd.1011i.sublime-workspace"
+			],
+			[
+				"f",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\flagship.sublime-project"
+			],
+			[
+				"now",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\now-commerce.sublime-project"
+			],
+			[
+				"em",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\embedded.sublime-project"
+			],
+			[
+				"embedded",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\embedded.sublime-project"
+			],
+			[
+				"mad",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\semantic-madcap.sublime-project"
+			],
+			[
+				"seam",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\semantic-madcap.sublime-project"
+			],
+			[
+				"ger",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\georges-drupal-2015.sublime-project"
 			]
 		],
 		"width": 380.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 334.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 292.0,
+	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
