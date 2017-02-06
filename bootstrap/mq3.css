@@ -1,0 +1,46 @@
+/*=============================*/
+/*====  BOOTSTRAP 3 MEDIA QUERIES  ====*/
+/*=============================*/
+
+/*===========  CliffsNotes ============*/
+/*  xs < 768 <= sm < 992 <= md < 1200 <= lg  */
+/*===============================*/
+
+
+/*====  Mobile First Method  ====*/
+
+/* Small Devices (Tablets) */
+  @media only screen and (min-width : 768px) { ... }
+
+/* Medium Devices (Tablets, Desktops) */
+  @media only screen and (min-width : 992px) { ... }
+
+/* Large Devices (Desktops, Wide Screens) */
+  @media only screen and (min-width : 1200px) { ... }
+
+
+/*====  Non-Mobile First Method  ====*/
+
+/* Extra Small Devices (Phones, Tablets) */
+  @media only screen and (max-width : 767px) { ... }
+
+/* Small Devices (Tablets) */
+  @media only screen and (max-width : 991px) { ... }
+
+/* Medium Devices (Tablets, Desktops) */
+  @media only screen and (max-width : 1199px) { ... }
+
+
+/*====  Queries to Target Particular Devices  ====*/
+
+/* Extra Small Devices (Phones,Tablets) */
+  @media (max-width : 767px)  { ... }
+
+/* Small Devices (Tablets) */
+  @media (min-width : 768px) and (max-width : 991px) { ... }
+
+/* Medium Devices (Tablets, Desktops) */
+  @media (min-width : 992px) and (max-width : 1199px) { ... }
+
+/* Medium Devices (Tablets, Desktops) */
+  @media (min-width : 1200px) { ... }

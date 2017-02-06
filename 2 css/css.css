@@ -1,0 +1,66 @@
+/* ================================= */
+/* webkit */
+/* ================================= */
+-webkit-
+-moz-
+-ms-
+-o-
+
+/* ================================= */
+/* link type specific css */
+/* ================================= */
+a[href^="http://"] {
+        /* fully valid URL, likely external link */
+}
+
+a[href="http://google.com"] {
+        /* link to specific website */
+}
+
+a[href^="/"], a[href^=".."] {
+        /* internal relative link */
+}
+
+a[href^="mailto:"] {
+        /* email link */
+}
+
+a[href$=".pdf"] {
+        /* PDF file */
+}
+
+a[href$=".doc"] {
+        /* Microsoft Word document */
+}
+
+a[href$=".mp3"] {
+        /* Music file */
+}
+
+a[href$=".zip"] {
+        /* Archive file */
+}
+
+
+// * – will match any part of the attribute value to the given string
+// ^ – will match if the attribute begins with the given string (think class prefixes)
+// $ – matches if the attribute ends with the given string
+
+// placeholders
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #767676;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #767676;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #767676;
+  opacity: 1;
+}
+
+
+

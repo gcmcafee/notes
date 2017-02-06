@@ -1,0 +1,9 @@
+Open in Photoshop
+Set Image Pixels/Inch to 150
+Save As PhotoshopPDF
+Deselect Layers, Select as a Copy
+Deselect 
+- Preserve
+Compress
+- 225 -> 150
+- Max

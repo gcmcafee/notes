@@ -1,0 +1,18 @@
+Select Item – Shift+Ctrl+. or Shift+Ctrl+,
+
+Rename Tag – Shift+Ctrl+'
+Delete Tag – Ctrl + Shift + ;
+
+Match Tag Pair Outward – Ctrl+,
+Match Tag Pair Inward – Ctrl+.
+
+Go to Matching Pair – Ctrl+Alt+J
+
+Go to Edit Point — Ctrl+Alt+→ or Ctrl+Alt+←
+
+Go to Anything — Ctrl+P
+
+Find — Ctrl+Shift+F
+
+empty spaces
+ ^\n

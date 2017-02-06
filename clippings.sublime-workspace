@@ -1,0 +1,467 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 24 files for \"background-cover\"\n\n0 matches\n\nSearching 24 files for \"cover\"\n\nC:\\Users\\CodeManPJ\\Desktop\\clippings\\3 less\\less.less:\n   25    }\n   26  }\n   27: .bg--cover {\n   28:   background-size: cover;\n   29    background-repeat: no-repeat;\n   30    background-position: center;\n\n2 matches in 1 file\n\n\nSearching 23 files for \"box-shadow\"\n\n0 matches\n\nSearching 23 files for \"box-shadow\"\n\n0 matches",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "2 css/css.css",
+			"settings":
+			{
+				"buffer_size": 1204,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "3 less/less.less",
+			"settings":
+			{
+				"buffer_size": 2557,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "less",
+		"selected_items":
+		[
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Add Channel"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"xcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"xhtml",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			" import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/CodeManPJ/Desktop/clippings"
+	],
+	"file_history":
+	[
+		"/C/Users/CodeManPJ/Desktop/clippings/2 css/data-overlay.css",
+		"/C/Users/CodeManPJ/Desktop/clippings/2 css/sections.css",
+		"/C/Users/CodeManPJ/Desktop/clippings/3 less/less.less",
+		"/C/Users/CodeManPJ/Desktop/pics",
+		"/C/Users/CodeManPJ/Documents/wedn/wedding.html",
+		"/C/Users/CodeManPJ/Documents/wedn/wedding.sublime-workspace",
+		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/CodeManPJ/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements-st3/readme.md",
+		"/C/Users/CodeManPJ/Desktop/wedn/wedding2.html",
+		"/C/Users/CodeManPJ/Desktop/wedn/wedding.html",
+		"/C/Users/CodeManPJ/Documents/jobs/classy_senior-front-end-eng.txt",
+		"/C/Users/CodeManPJ/Desktop/dates",
+		"/C/Users/CodeManPJ/Documents/jobs/bvaccel_senior-front-end-dev.txt",
+		"/C/Users/CodeManPJ/Documents/jobs/salary.txt",
+		"/C/Users/CodeManPJ/Desktop/retroarch.cfg",
+		"/C/Users/CodeManPJ/Desktop/headq.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>",
+			"",
+			"C:\\Users\\CodeManPJ\\Documents\\Pillar\\pillar\\css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"box",
+			"box-shadow",
+			"box",
+			"box-shadow",
+			"#aaa",
+			"pink",
+			"color: pink;",
+			"cover",
+			"background-cover",
+			"(",
+			")",
+			"     )*",
+			"''",
+			".8",
+			"menu",
+			"hide_menu",
+			"icon",
+			"blue",
+			"btn",
+			"ctrl+",
+			"ctrl+0",
+			"text",
+			"Travel",
+			"weekend",
+			"Weekend",
+			"weekend",
+			"Weekend",
+			"weekend",
+			"Weekend",
+			"weekend",
+			"Weekend",
+			"weekend",
+			"rsvp",
+			"<div class=\"small\">",
+			"More Details",
+			"data-overlay",
+			", ",
+			"\"#\"",
+			"#",
+			"1900",
+			"\"#\"",
+			"text-center",
+			"sm",
+			"parallax",
+			"sm",
+			"col-xs-6",
+			"input-with-icon ",
+			"<label",
+			"<",
+			"mt24",
+			"h5",
+			"240px",
+			"width:240px",
+			"width:240px;",
+			"space--md",
+			"One of the best",
+			"one of the best",
+			"parallax",
+			"url",
+			"images",
+			"gallery",
+			"text tabs",
+			",",
+			".bg--white",
+			"3",
+			"visit our ",
+			".btn",
+			"week",
+			"venues",
+			"courtney",
+			"montse",
+			"data",
+			"h3",
+			"h4",
+			"wedding cerem",
+			"our registry",
+			"images/gallery/.jpg",
+			"img/",
+			"col-sm-3",
+			"col-sm-4",
+			"sm-3",
+			"col-sm-3",
+			"md",
+			"index.html",
+			"cody ",
+			"Courtney & Cody",
+			"pillar",
+			"min-width",
+			"max-width:",
+			"max-width",
+			"h2",
+			"parallax",
+			"%20",
+			"$NAME$FILEEXT",
+			"echo ",
+			"</i>",
+			"<i",
+			"alert"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										173,
+										178
+									],
+									[
+										207,
+										212
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\CodeManPJ\\Desktop\\clippings",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 4,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 421.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2 css/css.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "3 less/less.less",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 179.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "clippings.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"init",
+				"pillar\\js\\init.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\CodeManPJ\\Documents\\wedn\\website\\wedding.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

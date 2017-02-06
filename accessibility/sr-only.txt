@@ -1,0 +1,17 @@
+.sr-only
+Hides an element to all devices except screen readers
+
+.sr-only-focusable
+Combine with .sr-only to show the element again when it is focused (e.g. by a keyboard-only user)
+
+
+<div class="container">
+  <h2>Example</h2>
+  <p>The .sr-only class hides an element to all devices except screen readers:</p>
+  <a class="sr-only" href="#">Skip to main content</a>
+  <p>Combine .sr-only with .sr-only-focusable to show the element again when it is focused (e.g. by a keyboard-only user):</p>
+  <a class="sr-only sr-only-focusable" href="#">Skip to main content</a>
+</div>
+
+<span class="sr-only">Previous</span>
+<span class="sr-only">Next</span>
