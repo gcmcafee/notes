@@ -100,7 +100,6 @@
 	"expanded_folders":
 	[
 		"/C/Users/cody/Documents/resources/clippings",
-		"/C/Users/cody/Documents/resources/clippings/1 html",
 		"/C/Users/cody/Documents/resources/clippings/2 css",
 		"/C/Users/cody/Documents/resources/clippings/3 less",
 		"/C/Users/cody/Documents/resources/clippings/bootstrap"
@@ -555,9 +554,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "geo",
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"C:\\Users\\cody\\Documents\\sublime-projects\\clippings.sublime-workspace"
+			],
 			[
 				"geo",
 				"C:\\Users\\cody\\Documents\\sublime-projects\\georges-drupal-2015.sublime-project"
@@ -565,10 +568,6 @@
 			[
 				"abaco",
 				"C:\\Users\\cody\\Documents\\sublime-projects\\abaco.sublime-project"
-			],
-			[
-				"",
-				"C:\\Users\\cody\\Documents\\sublime-projects\\flagship.sublime-project"
 			],
 			[
 				"fore",
@@ -639,7 +638,7 @@
 				"C:\\Users\\cody\\Documents\\sublime-projects\\georges-drupal-2015.sublime-project"
 			]
 		],
-		"width": 380.0
+		"width": 840.0
 	},
 	"select_symbol":
 	{
@@ -657,7 +656,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":
